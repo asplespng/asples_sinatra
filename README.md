@@ -20,10 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
 require 'sinatra'
 require 'asples_sinatra'
+```
+To execute example app:
 
-ruby app.rb for example app
+  $ ruby app.rb
 
 ## Development
 
