@@ -26,7 +26,7 @@ require 'asples_sinatra'
 ```
 To execute example app:
 
-  $ ruby app.rb
+   $ ruby app.rb
 
 ## Development
 
