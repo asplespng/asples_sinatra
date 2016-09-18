@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["per.evensen@gmail.com"]
 
   spec.summary       = %q{Helpers for base sinatra app}
-  # spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.description   = %q{Currently a helper for generating bootstrap formatted input fields for ActiveRecord objects.}
   spec.homepage      = "https://github.com/asplespng/asples_sinatra"
   spec.license       = "MIT"
 
@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   # end
 
   # spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.files         = ['lib/asples_sinatra.rb', 'lib/asples_sinatra/helpers.rb', 'lib/asples_sinatra/sinatra.rb', 'lib/asples_sinatra/version.rb', 'lib/asples_sinatra/templates/input.haml']
+  spec.files         = ['lib/asples_sinatra.rb', 'lib/asples_sinatra/helpers.rb', 'lib/asples_sinatra/sinatra.rb', 'lib/asples_sinatra/version.rb']
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]

@@ -1,6 +1,7 @@
 # AsplesSinatra
 
-Various helpers for Sinatra.
+Helpers for basic Sinatra applications.
+Currently a helper for generating bootstrap formatted input fields for ActiveRecord objects.
 
 ## Installation
 
