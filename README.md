@@ -21,12 +21,15 @@ Or install it yourself as:
     $ gem install asples_sinatra
 
 ## Usage
-
+E.g. in your app.rb
 ```ruby
-require 'sinatra'
 require 'asples_sinatra'
 ```
 
+E.g. in haml
+```haml
+= input :name, object: @user, label: 'Full name', placeholder: 'Enter your full name'
+```
 To execute example app:
 
     $ ruby app.rb
