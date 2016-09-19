@@ -1,4 +1,5 @@
 # AsplesSinatra
+[![Gem Version](https://badge.fury.io/rb/asples_sinatra.svg)](https://badge.fury.io/rb/asples_sinatra)
 
 Helpers for basic Sinatra applications.
 Currently a helper for generating bootstrap formatted input fields for ActiveRecord objects.
