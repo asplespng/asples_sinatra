@@ -26,10 +26,22 @@ E.g. in your app.rb
 require 'asples_sinatra'
 ```
 
-E.g. in haml
+E.g. using haml
 ```haml
-= input :name, object: @user, label: 'Full name', placeholder: 'Enter your full name'
+haml "= input :name, object: @user, label: 'Full name', placeholder: 'Enter your full name'"
 ```
+This outputs
+
+```html
+<div class="form-group has-error">
+  <label class="control-label" for="name">Full name:</label>
+  <input class="form-control" name="name" placeholder="Enter your full name" type="text" value="John Doe">
+  <span class="help-block">
+    An error has occured
+  </span>
+</div>
+```
+
 To execute example app:
 
     $ ruby app.rb
