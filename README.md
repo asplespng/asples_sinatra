@@ -26,10 +26,26 @@ E.g. in your app.rb
 require 'asples_sinatra'
 ```
 
-E.g. in haml
-```haml
-= input :name, object: @user, label: 'Full name', placeholder: 'Enter your full name'
+E.g. using haml
+```ruby
+@user = OpenStruct.new #could also be an active record object.
+@user.errors = {name: ["An error has occured"]}
+@user.name = "John Doe"
+
+haml "= input :name, object: @user, label: 'Full name', placeholder: 'Enter your full name'"
 ```
+This outputs
+
+```html
+<div class="form-group has-error">
+  <label class="control-label" for="name">Full name:</label>
+  <input class="form-control" name="name" placeholder="Enter your full name" type="text" value="John Doe">
+  <span class="help-block">
+    An error has occured
+  </span>
+</div>
+```
+
 To execute example app:
 
     $ ruby app.rb
