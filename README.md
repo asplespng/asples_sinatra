@@ -27,7 +27,11 @@ require 'asples_sinatra'
 ```
 
 E.g. using haml
-```haml
+```ruby
+@user = OpenStruct.new #could also be an active record object.
+@user.errors = {name: ["An error has occured"]}
+@user.name = "John Doe"
+
 haml "= input :name, object: @user, label: 'Full name', placeholder: 'Enter your full name'"
 ```
 This outputs
