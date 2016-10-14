@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   # end
 
   # spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.files         = ['lib/asples_sinatra.rb', 'lib/asples_sinatra/helpers.rb', 'lib/asples_sinatra/sinatra.rb', 'lib/asples_sinatra/version.rb', 'lib/asples_sinatra/templates/input.haml']
+  spec.files         = ['lib/asples_sinatra.rb', 'lib/asples_sinatra/helpers.rb', 'lib/asples_sinatra/sinatra.rb', 'lib/asples_sinatra/templates/input.haml', 'lib/asples_sinatra/version.rb']
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
