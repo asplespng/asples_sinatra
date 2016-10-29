@@ -1,5 +1,5 @@
 # AsplesSinatra
-[![Gem Version](https://badge.fury.io/rb/asples_sinatra.svg)](https://badge.fury.io/rb/asples_sinatra)
+[![Gem Version](https://badge.fury.io/rb/asples_sinatra.svg)](https://badge.fury.io/rb/asples_sinatra) [ ![Codeship Status for asplespng/asples_sinatra](https://app.codeship.com/projects/e2e009d0-7dd8-0134-a415-22f53c89765f/status?branch=master)](https://app.codeship.com/projects/181509)
 
 Helpers for basic Sinatra applications.
 Currently a helper for generating bootstrap formatted input fields for ActiveRecord objects.
